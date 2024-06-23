@@ -41,7 +41,7 @@ Thank you for your interest and support.
 **Muhammed Adnan**  
 **Admin, Developer, and Subcomins**  
 **ComicFix.com**
-
+The desgin for th Corn AI : https://app.uizard.io/p/657b5bb8
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Why Businesses Use Corn AI
 Businesses choose to implement Corn AI for several compelling reasons:
