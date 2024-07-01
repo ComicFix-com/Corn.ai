@@ -67,3 +67,8 @@ Corn AI prioritizes data security and compliance with regulations such as GDPR. 
 
 Conclusion
 In summary, businesses use Corn AI to enhance customer engagement, streamline CRM operations, personalize customer interactions, scale effectively, gain valuable insights, and maintain high standards of data security and compliance. By leveraging advanced AI technologies, Corn AI empowers businesses to deliver exceptional customer experiences and drive sustainable growth.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1>Screenshorts</h1>
+
+![CornAI](https://github.com/riyan-hx/Corn.ai/assets/138657295/3ff9c3bb-3c7d-4f5f-8d15-79630250898b)
