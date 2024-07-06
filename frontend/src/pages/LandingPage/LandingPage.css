@@ -1,0 +1,256 @@
+.LandingPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('/public/Login-pg-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.left-side{
+    width: 50%;
+    height: 100vh;
+}
+.loginform {
+    margin-left: 220px;
+    margin-top: 100px;
+    width: 335px;
+    height: 470px;
+    background: #F8FAFF;
+    box-shadow: 0px 4px 8px rgb(128, 128, 128);
+    border-radius: 15px;
+    position: relative; /* Optional, to control positioning */
+}
+#ck-box{
+    font-size: 10px;
+    color: #ffffff;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.wel-h {
+    font-family: Poppins;
+    text-align: center;
+    padding-top: 20px;
+}
+.detail-h{
+    font-family: poppins;
+    font-size: 10px;
+    text-align: center;
+    color: #737373;
+}
+.inp{
+    width: 295px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #C5C5C596;
+    margin-left: 20px;
+    margin-top: 20px;
+    outline: none;
+
+}
+.rembr-forgt{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Poppins;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    color:#737373;
+    
+}
+.rem{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.forgt{
+    color: #737373;
+    font-weight: 800;
+}
+.login-btn{
+    width: 295px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: hsl(210, 3%, 15%);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color:#fff;
+    cursor: pointer;
+
+}
+.divide{
+    font-size: 12px;
+    color: #737373;
+    text-align: center;
+    margin-top: 15px;
+}
+.google-logo{
+    width: 35px;
+    height: 35px;
+    margin-left: 70px;
+}
+.google-login-btn{
+    width: 295px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: #F8FAFF;
+    text-align: center;
+    display: flex;
+    border: 2px solid #C5C5C596;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.logn-with{
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: POPPINS;
+    color: #737373;
+    cursor: pointer;
+}
+.sign-h{
+    display: flex;
+    font-size: 10px;
+    font-family: poppins;
+    color: #737373;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.signup{
+    font-weight: 900;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.right-side{
+    width: 50%;
+    height: 100vh;
+}
+.right-container{
+    width: 340px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.logo-h{
+    display: flex;
+    margin-left: 40px;
+}
+.logo-2{
+    width: 35px;
+    height: 25px;
+    margin-top: 3px;
+}
+.head{
+    font-family:Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+}
+.para{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:600;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+    color: #737373;
+    width: 500px;
+    margin-top: 40px;
+
+}
+
+.prev-ac{
+    width: 300px;
+    height: 90px;
+    background-color: #F8FAFF;
+    box-shadow: 0 4px 8px rgb(209, 209, 209);
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.prof-pic{
+    width: 70px;
+    height: 70px;
+    margin-top:5px;
+    margin-left: 10px;
+}
+.ac-name h6{
+    margin-left: 40px;
+    padding-top: 10px;
+    font-family: poppins;
+    font-size: 12px;
+    color: #737373;
+}
+.drop-icon{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(184, 184, 184);
+    margin-left: 30px;
+    margin-top: 5px;
+    display: flex;
+
+  }
+  
+  
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .username{
+    font-size: 10px;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: poppins;
+    font-weight: lighter;
+  }
+  .email{
+    font-size: 10px;
+    margin-left: 15px;
+    text-align: start;
+    font-weight: lighter;
+    color: #737373;
+    font-family:poppins;
+  }
+  
+  .dropdown-item {
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
