@@ -1,74 +1,70 @@
-# Technical Announcement: Introducing Corn AI - A Revolutionary WhatsApp CRM Tool
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hello everyone,
+## Available Scripts
 
-We are excited to introduce **Corn AI**, a cutting-edge WhatsApp CRM tool developed by Comic Fix. This project integrates advanced AI technologies including **OpenAI** and **Gemini AI**, along with robust frontend and backend frameworks, to revolutionize customer relationship management on messaging platforms.
+In the project directory, you can run:
 
-## Key Features
+### `npm start`
 
-- **#AI-Powered Interaction**: Corn AI leverages OpenAI's language models for natural and intelligent responses, enhancing customer engagement and satisfaction.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **#Personalization with Gemini AI**: Integrated Gemini AI enables Corn AI to analyze customer sentiment and preferences, providing personalized interactions tailored to individual needs.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **#Frontend Development**: Built with HTML, CSS, and JavaScript, Corn AI offers a responsive and user-friendly interface on WhatsApp Web, ensuring a seamless user experience.
+### `npm test`
 
-- **#Backend Framework (Node.js with Malitio)**: Powered by Node.js with the Malitio framework, Corn AI efficiently manages backend operations, including message processing, AI interactions, and data management.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **#Database Management**: Corn AI utilizes Node.js with Excel Comblat for structured data storage and retrieval, supporting effective CRM functionalities.
+### `npm run build`
 
-- **#Deployment**: Deployed flexibly on both home servers and cloud servers, Corn AI ensures reliability and scalability to meet diverse business requirements and growth.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Benefits
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **#Enhanced Customer Engagement**: Corn AI delivers personalized responses, enhancing customer satisfaction and loyalty.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **#Efficient CRM Operations**: Automated workflows and advanced analytics optimize resource management and streamline CRM processes.
+### `npm run eject`
 
-- **#Scalability and Flexibility**: Designed to scale seamlessly, Corn AI adapts to business growth and varying deployment needs, whether on-premises or in the cloud.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Future Development
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Stay updated as we continue to enhance Corn AI, aiming to redefine customer relationship management with innovative AI-driven solutions.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-For more details and ongoing updates, visit [ComicFix.com](https://www.linkedin.com/company/comicfix-com).
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Thank you for your interest and support.
+## Learn More
 
-**Best regards,**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Muhammed Adnan**  
-**Admin, Developer, and Subcomins**  
-**ComicFix.com** <br>
-<h1>The desgin for th Corn AI :<a herf="https://app.uizard.io/p/657b5bb8"></a> </h1>
-🥇🥈🥉⏭️
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Why Businesses Use Corn AI
-Businesses choose to implement Corn AI for several compelling reasons:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Enhanced Customer Engagement
-Corn AI utilizes advanced AI technologies like OpenAI and Gemini AI to deliver intelligent and personalized responses to customer inquiries on WhatsApp. This capability enhances customer engagement by providing prompt and relevant information, which leads to improved customer satisfaction and loyalty.
+### Code Splitting
 
-2. Streamlined CRM Operations
-By automating customer interactions and streamlining CRM processes, Corn AI helps businesses operate more efficiently. It reduces the workload on customer support teams by handling routine inquiries and tasks, allowing them to focus on more complex issues and strategic initiatives.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-3. Personalized Customer Interactions
-With its ability to analyze customer sentiment and preferences, Corn AI offers personalized interactions tailored to individual needs. This personalization not only improves customer experience but also increases the likelihood of conversions and repeat business.
+### Analyzing the Bundle Size
 
-4. Scalability and Flexibility
-Corn AI is designed to scale with business growth. Whether deployed on-premises or in the cloud, it can handle increasing volumes of customer interactions and adapt to evolving business needs seamlessly. This scalability ensures that businesses can continue to leverage Corn AI as they expand.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-5. Data-Driven Insights
-Through its backend analytics and reporting capabilities, Corn AI provides valuable insights into customer behavior and trends. These insights enable businesses to make informed decisions, optimize their marketing strategies, and improve overall operational efficiency.
+### Making a Progressive Web App
 
-6. Security and Compliance
-Corn AI prioritizes data security and compliance with regulations such as GDPR. It ensures secure communication channels through integration with WhatsApp Web API and follows industry best practices to protect customer information.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Conclusion
-In summary, businesses use Corn AI to enhance customer engagement, streamline CRM operations, personalize customer interactions, scale effectively, gain valuable insights, and maintain high standards of data security and compliance. By leveraging advanced AI technologies, Corn AI empowers businesses to deliver exceptional customer experiences and drive sustainable growth.
+### Advanced Configuration
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h1>Screenshorts</h1>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-![CornAI](https://github.com/riyan-hx/Corn.ai/assets/138657295/3ff9c3bb-3c7d-4f5f-8d15-79630250898b)
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
