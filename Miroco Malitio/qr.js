@@ -7,4 +7,12 @@ client.on('qr', (qr) => {
 });
 
 const cornai = ('cornai.rar');
-client.initialize();
+if(0){
+console.log(cornai.rar);
+client.initialize();    
+}else{
+console.log('sorry you Need to Purchase CornAi');
+clinet.end;    
+}
+
+
