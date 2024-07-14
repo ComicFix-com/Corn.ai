@@ -1,0 +1,4 @@
+const openai = new OpenAI({
+  apiKey: 'sk-proj-4b0CAyg8LfjBZgHAxx3HT3BlbkFJU27EU0MMsPaQipb4yBhp', 
+ console.log();
+});
