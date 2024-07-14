@@ -6,7 +6,7 @@ const mailTransporter = malitio.createTransport({
     secure: false, // True for 465, false for other ports
     auth: {
         user: 'cornai@proton.me', 
-        pass: 'your-email-password', 
+        pass: 'h9DAyica5BaP9Mf', 
     },
 });
 
