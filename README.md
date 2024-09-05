@@ -1,6 +1,7 @@
 
 ------------------------------
-https://www.codetriage.com/muhammedadnanv/corn.ai/badges/users.svg
+![Corn AI Users](https://www.codetriage.com/muhammedadnanv/corn.ai/badges/users.svg)
+
 ------------------------------
 # Getting Started with Create React App
 
