@@ -1,0 +1,86 @@
+.task-h{
+    font-size: 18px;
+    font-family: poppins;
+}
+
+.icons {
+    display: flex;
+    margin-left: 100px;
+}
+
+#add-icon {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menu {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 40px;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    position: absolute; /* Positioning to absolute to keep it independent of other elements */
+  
+}
+.dropdown-content button{
+    border: none;
+    margin-left: 20px;
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(146, 146, 146);
+    border-radius: 5px;
+}
+
+.dropdown-content button:hover{
+    background-color: #380fcf;
+    color: #fff;
+}
+.add-todo-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.add-todo-form input{
+    width: 130px;
+    height: 20px;
+}
+.add-todo-form button{
+    width: 50px;
+    height: 20px;
+    background-color: #380fcf;
+    border: none;
+    margin-left: 5px;
+    border-radius: 2px;
+    color: #fff;
+}
+.todo-list{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.todo-item{
+    overflow-y: hidden;
+}
+.todo-tic{
+    margin-left: 50px;
+}
+.todo-list input {
+    margin-left: 20px;
+
+}
+.todo-text{
+    font-size: 14px;
+    margin-left: 20px;
+
+}
+.todo-day{
+    margin-left: 150px;
+}

@@ -1,0 +1,166 @@
+
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(212, 212, 212);
+}
+.sidebar .header{
+    margin-left:50px;
+    top: 0;
+}
+.sect-1{
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+}
+.sect-2{
+    width: auto;
+    height: 200px;
+    background-color: #6d6d6d;
+     margin-top: 0;
+}
+li{
+    cursor: pointer;
+    color: #6d6d6d;
+    font-family: poppins;
+    padding-top: 12px;
+    margin-top: 5px;
+    font-size: 12px;
+    list-style-type: none;
+    margin-left: 70px; 
+    display: flex;
+    justify-content: space-between;
+
+}
+ul hr{
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 25px;
+}
+ul .fa{
+    font-size:18px;
+    margin-right: 40px;
+    color: #b9b9b9;
+    margin-left: 10px;
+}
+
+.selected {
+    background-color: #5932EA;
+    color: #fff;
+    width: 220px;
+    height: 35px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 60px;
+
+    
+  }
+.selected .fa{
+    margin-right: 20px;
+}
+.get-pro{
+    width: 200px;
+    height: 130px;
+    background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 20px;
+}
+.pro-h{
+    font-family: poppins;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pro-btn{
+    width: 160px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: #4925E9;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 800;
+    
+}
+
+.ac-section {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0  4px 8px rgb(194, 190, 190);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.ac-details{
+    display: flex;
+    margin-top: 15px;
+}
+.prof-img{
+    width: 50px;
+    margin-left: 10px;
+    
+}
+.ac-section .name{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+}
+.ac-section .username{
+    margin-left: 10px;
+    font-size: 8px;
+}
+.ac-button{
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 30px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.ac-content {
+    
+    position:  absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    font-weight: 800;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    bottom: 100%; /* Position the dropdown content above the button */
+    left: 0;
+    margin-bottom: 10px; /* Optional: add some space between the button and the dropdown content */
+}
+
+.ac-content a {
+    color: rgb(99, 97, 97);
+    padding: 15px ;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+.ac-content a:hover {
+    background-color: #e0dbdb;
+}
+
+
+
+
