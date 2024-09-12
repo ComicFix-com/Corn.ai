@@ -1,0 +1,189 @@
+.dashboard {
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard .inp {
+    width: 900px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(187, 187, 187);
+    display: flex;
+    align-items: center; /* Vertically center the inp-box */
+
+}
+
+.inp-box {
+    width: 400px; /* Make the inp-box take the full width of inp */
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(196, 193, 193);
+    display: flex; /* Use flexbox to align the search-bar inside */
+    align-items: center; /* Vertically center the search-bar */
+    padding: 0 10px; /* Optional: Add some horizontal padding */
+    margin-left: 15px;
+}
+
+.search-bar {
+    width: 100%; /* Make the search-bar take the full width of inp-box */
+    border: none;
+    outline: none; /* Remove the outline on focus */
+    margin-left: 20px;
+    color: #888888;
+    font-size: 13px;
+}
+
+.search-bar::placeholder {
+    /* Optional: Style the placeholder */
+    color: rgb(168, 165, 165);
+}
+.inp-box .fa{
+    margin-right: 20px;
+    color: #a7a4a4;
+    font-size: 14px;
+}
+.create-tsk{
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(177, 174, 174);
+    font-size: 12px;
+    word-spacing: 2px;
+    font-family: poppins;
+    border-radius: 20px;
+    margin-left: 230px;
+    color: #888888;
+    
+}
+.create-tsk:hover{
+    color: #4925E9;
+    border: 1px solid #4925E9;
+    
+}
+.edit{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    background-color: #fff;
+    color: #888888;
+    margin-left: 30px;
+    font-size: 16px;
+
+}
+.edit:hover{
+    color: #4925E9;
+    border: 1px solid #4925E9;
+}
+.filter{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    background-color: #fff;
+    color: #888888;
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+.filter:hover{
+    color:#4925E9;
+    border: 1px solid #4925E9;
+}
+.row-2{
+    display: flex;
+}
+.item1{
+    width: 280px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 80px;
+    margin-top: 30px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(184, 183, 183);
+
+}
+.item2{
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(184, 183, 183);
+
+}
+.item3{
+    width: 230px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(184, 183, 183);
+
+}
+.row-3{
+    display: flex;
+}
+.item4{
+    width: 280px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(184, 183, 183);
+
+}
+.item5{
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(184, 183, 183);
+
+}
+
+.add-wid{
+    width: 230px;
+    height: 120px;
+    background: linear-gradient(107.91deg, rgba(234, 171, 240, 0.35) 7.37%, rgba(70, 35, 233, 0.35) 95.19%);
+    margin-left: 40px;
+    margin-top: 150px;
+    border: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(143, 143, 143);
+
+}
+
+.wid-btn{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    margin-left: 35px;
+    margin-top: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgb(156, 156, 156);
+    font-family: poppins;
+    color: #4925E9;
+    font-weight: 600;
+}
+.wid-btn .fa{
+    margin-left: 10px;
+    font-size: 14px;
+    
+}

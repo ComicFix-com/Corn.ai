@@ -1,0 +1,12 @@
+
+.Surveys{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgb(114, 112, 112);
+    border-radius: 10px;
+    margin: 100px;
+    font-size: xx-large;
+    color: #1f1e1e;
+    text-align: center;
+}
