@@ -24,6 +24,7 @@ const Sidebar = ({onSelect}) => {
             <li className={selectedItem === 'Dashboard' ? 'selected' : ''} onClick={() => handleSelect('Dashboard')}> Dashboard <i class="fa fa-angle-right"></i></li>
             <li className={selectedItem === 'AiInsight' ? 'selected' : ''} onClick={() => handleSelect('AiInsight')}>Ai Insight <i class="fa fa-angle-right"></i></li>
             <li className={selectedItem === 'CustomerReport' ? 'selected' : ''} onClick={() => handleSelect('CustomerReport')}>Customer Reports <i class="fa fa-angle-right"></i></li>
+            <li className={selectedItem === 'CustomerGoals' ? 'selected' : ''} onClick={() => handleSelect('CustomerGoals')}>Customer Goals <i class="fa fa-angle-right"></i></li>
             <li className={selectedItem === 'Surveys' ? 'selected' : ''} onClick={() => handleSelect('Surveys')}>Surveys <i class="fa fa-angle-right"></i></li>
             <hr />
             <li onClick={() => onSelect('AiMarketing')}>Ai Marketing <i class="fa fa-angle-right"></i></li>

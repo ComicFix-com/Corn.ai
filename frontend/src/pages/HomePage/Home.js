@@ -18,6 +18,8 @@ function Home() {
         return <AiInsight/>
       case 'CustomerReport':
         return <CustomerReport/>
+      case 'CustomerGoals':
+        return
       case 'Surveys':
         return <Surveys/>
       default:
