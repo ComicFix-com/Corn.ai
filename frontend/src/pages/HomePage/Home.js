@@ -4,6 +4,7 @@ import Sidebar from "../../components/SideBar/SideBar";
 import Dashboard from "../../components/Dashboard/Dashboard";
 import AiInsight from "../../components/AiInsight/AiInsight";
 import CustomerReport from "../../components/CustomerReport/CustomerReport";
+import CustomerGoals from "../../components/CustomerGoals/CustomerGoals";
 import Surveys from "../../components/Surveys/Surveys";
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
       case 'CustomerReport':
         return <CustomerReport/>
       case 'CustomerGoals':
-        return
+        return <CustomerGoals/>
       case 'Surveys':
         return <Surveys/>
       default:

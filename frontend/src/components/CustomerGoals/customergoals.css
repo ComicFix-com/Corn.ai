@@ -1,11 +1,43 @@
-.CustomerGoals{
-    width: 800px;
-    height: 500px;
-    background: #ffffff;
-    box-shadow: 0 4px 8px rgb(114, 112, 112);
-    border-radius: 10px;
-    margin: 100px;
-    font-size: xx-large;
-    color: #141414;
-    text-align: center;
+.flex {
+    display: flex;
+}
+  
+.flex-col {
+    flex-direction: column;
+}
+  
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+  
+.w-50 {
+    width: 50%;
+}
+  
+.w-100 {
+    width: 100%;
+  }
+  
+.h-100 {
+    height: 100%;
+}
+  
+.full-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.CustomerGoals {
+    padding: 20px 5%;
+    width: 1080px;
+    height: 100vh;
+}
+
+.container {
+    width: 1150px;
+    height: 570px;
+    background-color: #fff;
+    margin: 15px 0;
+    border-radius: 20px;
 }
