@@ -5,6 +5,7 @@ import Dashboard from "../../components/Dashboard/Dashboard";
 import AiInsight from "../../components/AiInsight/AiInsight";
 import CustomerReport from "../../components/CustomerReport/CustomerReport";
 import Surveys from "../../components/Surveys/Surveys";
+import CustomerGoals from "../../components/CustomerGoals/CustomerGoals";
 
 function Home() {
   const [selectedComponent, setSelectedComponent] = useState(Dashboard);
@@ -19,7 +20,7 @@ function Home() {
       case 'CustomerReport':
         return <CustomerReport/>
       case 'CustomerGoals':
-        return
+        return <CustomerGoals/>
       case 'Surveys':
         return <Surveys/>
       default:
