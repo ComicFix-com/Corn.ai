@@ -6,6 +6,7 @@ import AiInsight from "../../components/AiInsight/AiInsight";
 import CustomerReport from "../../components/CustomerReport/CustomerReport";
 import CustomerGoals from "../../components/CustomerGoals/CustomerGoals";
 import Surveys from "../../components/Surveys/Surveys";
+import CustomerGoals from "../../components/CustomerGoals/CustomerGoals";
 
 function Home() {
   const [selectedComponent, setSelectedComponent] = useState(Dashboard);

@@ -25,7 +25,7 @@ li{
     cursor: pointer;
     color: #6d6d6d;
     font-family: poppins;
-    padding-top: 12px;
+    padding-top: 10px;
     margin-top: 5px;
     font-size: 12px;
     list-style-type: none;
@@ -37,7 +37,7 @@ li{
 ul hr{
     margin-top: 20px;
     width: 200px;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 ul .fa{
     font-size:18px;
