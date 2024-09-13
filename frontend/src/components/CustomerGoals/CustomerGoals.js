@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import '../CustomerGoals/CustomerGoals.css'
 
 function CustomerGoals() {
@@ -17,17 +16,3 @@ function CustomerGoals() {
 }
 
 export default CustomerGoals;
-=======
-import React from 'react'
-import './customergoals.css'
-
-function CustomerGoals() {
-  return (
-    <div className='CustomerGoals'>
-      <h2>CustomerGoals</h2>
-    </div>
-  )
-}
-
-export default CustomerGoals
->>>>>>> d8522de860372f7cd736f3501387c631ead35cfb
