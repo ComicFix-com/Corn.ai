@@ -34,10 +34,11 @@
     height: 100vh;
 }
 
-.container {
-    width: 1150px;
-    height: 570px;
+.CustomerGoals .container {
+    width: 1000px;
+    height: 500px;
     background-color: #fff;
     margin: 15px 0;
     border-radius: 30px;
+    box-shadow: 2px 4px 8px rgb(180, 175, 175);
 }
