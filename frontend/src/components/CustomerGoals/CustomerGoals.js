@@ -1,4 +1,4 @@
-import '../CustomerGoals/CustomerGoals.css'
+import './CustomerGoals.css'
 
 function CustomerGoals() {
     return(
