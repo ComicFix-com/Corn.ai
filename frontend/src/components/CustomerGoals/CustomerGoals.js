@@ -1,8 +1,80 @@
 import './CustomerGoals.css';
 import DownloadIcon from '../../img/download-icon.svg';
-import ShareIcon from '../../img/share-icon.svg'
+import ShareIcon from '../../img/share-icon.svg';
+import RatingIcon from '../../img/rating-icon.svg'
+import ProgressBar from './ProgressBar/ProgressBar';
 
 function CustomerGoals() {
+    
+    async function fetchData() {
+        const API = "";
+        const response = await fetch(API);
+        let info = await response.json();
+    }
+
+    let cardData = [
+        {
+            title: 'Conversation Dynamics',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Decision Support Analysis',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Feedback Sentiment',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Collaboration Insights',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Knowledge Exchange Patterns',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Continuous Improvement',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Communication Effectiveness',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Acknowledgment Recognition',
+            icon: '',
+            rating: '',
+        },
+        {
+            title: 'Social Connectivity Analysis',
+            icon: '',
+            rating: '',
+        },
+    ]
+
+    const card = cardData.map((item)=> {
+        return(
+            <div className="card flex">
+                <img src={item.icon} alt="" />
+                <div className="details">
+                    <h5>{item.title}</h5>
+                    <div className="rating-info flex">
+                        <p>{item.rating}</p>
+                        <img src={RatingIcon} alt="" />
+                    </div>
+                </div>
+            </div>
+        )
+    })
+
     return(
         <div className="CustomerGoals">
             <div className="analytics-section flex flex-col">
@@ -29,8 +101,17 @@ function CustomerGoals() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="middle"></div>
-                            <div className="bottom"></div>
+                            <div className="middle">
+                                <div className="w-50">
+                                    <ProgressBar percentage={92} />
+                                </div>
+                                <div className="w-50"></div>
+                            </div>
+                            <div className="bottom flex flex-center">
+                                <div className="bottom-content">
+                                    {card}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

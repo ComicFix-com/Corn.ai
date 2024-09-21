@@ -39,7 +39,7 @@
 }
 
 .CustomerGoals .container {
-    width: 1080px;
+    width: 1000px;
     height: 500px;
     background-color: #fff;
     margin: 15px 0;
@@ -76,4 +76,21 @@
 .download-share img {
     filter: drop-shadow(8px 2px 17.1px rgba(121, 121, 121, 0.15));
     transform: translate(-1px,-5px);
+}
+
+.middle {
+    height: 40%;
+}
+
+.bottom-content {
+    height: 45%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.card h5 {
+    color: #5E5E5E;
 }
